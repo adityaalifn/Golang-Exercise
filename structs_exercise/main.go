@@ -25,8 +25,6 @@ func main() {
 		}, 
 	}
 
-	james := &person{}
-	james.print()
 	// jimPointer := &jim
 	jim.updateName("jimmy")
 	jim.print()
