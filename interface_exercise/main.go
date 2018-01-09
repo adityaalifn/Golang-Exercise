@@ -4,6 +4,8 @@ import "fmt"
 
 type bot interface {
 	getGreeting() string
+	// getBotVerion() float64
+	// respondToUser() string
 }
 
 type englishBot struct{}
@@ -15,6 +17,8 @@ func main() {
 
 	printGreeting(eb)
 	printGreeting(sb)
+
+	
 }
 
 func printGreeting(b bot) {
