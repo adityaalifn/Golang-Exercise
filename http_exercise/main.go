@@ -4,7 +4,7 @@ import (
 	"os"
 	"fmt"
 	"net/http"
-	"bufio"
+	"io"
 )
 
 func main() {
@@ -15,8 +15,9 @@ func main() {
 		os.Exit(1)
 	}
 
-	bs := make([]byte, 99999)
-	fmt.Println(bs, resp)
-	reader := bufio.NewReader(os.Stdin)
-	reader.ReadString('\n')
+	io.Copy(os.Stdout, resp.Body)
+
+	bs := make([]byte, 999999)
+	resp.Body.Read(bs)
+	fmt.Println(string(bs))
 }
