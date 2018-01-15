@@ -16,8 +16,4 @@ func main() {
 	}
 
 	io.Copy(os.Stdout, resp.Body)
-
-	bs := make([]byte, 999999)
-	resp.Body.Read(bs)
-	fmt.Println(string(bs))
 }
