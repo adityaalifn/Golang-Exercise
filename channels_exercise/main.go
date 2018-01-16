@@ -3,6 +3,7 @@ package main
 import (
 	"net/http"
 	"fmt"
+	"time"
 )
 
 func main() {
@@ -15,15 +16,18 @@ func main() {
 		"http://bukalapak.com",
 	}
 
-	c := make(chan string, len(links))
+	c := make(chan string)
 
 	for _, link := range links {
 		go checkLink(link, c)
 	}
 
-	for {
-		//fmt.Println(<-c)
-		go checkLink(<-c, c)
+	for l := range c{
+		go func(link string) {
+			time.Sleep(5 *time.Second)
+			checkLink(link,c)
+		}(l)
+		//fmt.Println()
 	}
 }
 
