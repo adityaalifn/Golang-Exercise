@@ -34,7 +34,13 @@ func getBooks(w http.ResponseWriter, r *http.Request) {
 
 // Get Single Book
 func getBook(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	params := mux.Vars(r) //Get params
 
+	//
+	for _, item := range books {
+		
+	}
 }
 
 // Create a New Book
@@ -59,7 +65,6 @@ func main() {
 	// Mock Data - Alternative Database
 	books = append(books, Book{ID: "1", Isbn: "448743", Title: "Book One", Author: &Author{Firstname: "John", Lastname: "Doe"}})
 	books = append(books, Book{ID: "2", Isbn: "847564", Title: "Book Two", Author: &Author{Firstname: "Steve", Lastname: "Smith"}})
-	books = append(books, Book{ID: "1", Isbn: "448743", Title: "Book One", Author: &Author{Firstname: "John", Lastname: "Doe"}})
 
 	// Router Handlers / Endpoints
 	r.HandleFunc("/api/books", getBooks).Methods("GET")
