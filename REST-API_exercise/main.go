@@ -1,13 +1,11 @@
 package main
 
 import (
-	//"encoding/json"
+	"encoding/json"
 	"log"
 	"net/http"
-	//"math/rand"
-	//"strconv"
-	"encoding/json"
-
+	"math/rand"
+	"strconv"
 	"github.com/gorilla/mux"
 )
 
@@ -26,12 +24,12 @@ type Author struct {
 }
 
 // Init books var as a slice Book struct
-type books []Book
+var books []Book
 
 // Get All Books
 func getBooks(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	json.NewDecoder(w).Encode(books)
+	json.NewEncoder(w).Encode(books)
 }
 
 // Get Single Book
