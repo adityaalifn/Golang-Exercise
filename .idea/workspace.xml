@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbaf2f67-3b58-4311-afe8-abe45bb39dba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/REST-API_exercise/main.go" afterPath="$PROJECT_DIR$/REST-API_exercise/main.go" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="dfca1c3f-c544-485f-97b3-31e209b46f24" name="day 6" comment="day 6&#10;- reader&#10;- writer&#10;&#10;(cherry picked from commit 1e4d2fb)">
       <changelist_data name="Aditya Alif Nugraha" email="adityaalifnugraha@gmail.com" date="1516024969000">
@@ -10,10 +10,8 @@
         <option name="email" value="adityaalifnugraha@gmail.com" />
         <option name="name" value="Aditya Alif Nugraha" />
       </changelist_data>
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,11 +87,9 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/REST-API_exercise/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-              <folding>
-                <element signature="e#14#133#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="64">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -395,7 +391,8 @@
     <MESSAGE value="day 7&#10;- go routines&#10;- channels" />
     <MESSAGE value="day 7&#10;- go routines&#10;- channels&#10;- fixing channels" />
     <MESSAGE value="day 8&#10;- http&#10;- json&#10;- router&#10;- rest api" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 8&#10;- http&#10;- json&#10;- router&#10;- rest api" />
+    <MESSAGE value="day 8&#10;- finishing restapi exercise&#10;- http&#10;- json&#10;- router&#10;- rest api" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 8&#10;- finishing restapi exercise&#10;- http&#10;- json&#10;- router&#10;- rest api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -774,11 +771,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/REST-API_exercise/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-          <folding>
-            <element signature="e#14#133#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="64">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
