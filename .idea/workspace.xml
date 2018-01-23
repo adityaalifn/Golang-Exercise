@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbaf2f67-3b58-4311-afe8-abe45bb39dba" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Hello World and Static File Server/main.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Hello World and Static File Server/index.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Hello World and Static File Server/main.go" afterPath="$PROJECT_DIR$/Hello World and Static File Server/main.go" />
     </list>
     <list id="dfca1c3f-c544-485f-97b3-31e209b46f24" name="day 6" comment="day 6&#10;- reader&#10;- writer&#10;&#10;(cherry picked from commit 1e4d2fb)">
       <changelist_data name="Aditya Alif Nugraha" email="adityaalifnugraha@gmail.com" date="1516024969000">
@@ -33,16 +34,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="deck_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cards_exercise/deck_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/structs_exercise/main.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,8 +87,20 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hello World and Static File Server/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+            <state relative-caret-position="73">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding>
+                <element signature="e#14#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hello World and Static File Server/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -139,6 +142,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -156,6 +160,7 @@
         <option value="$PROJECT_DIR$/http_exercise/main.go" />
         <option value="$PROJECT_DIR$/channels_exercise/main.go" />
         <option value="$PROJECT_DIR$/REST-API_exercise/main.go" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Hello World and Static File Server/main.go" />
       </list>
     </option>
@@ -238,6 +243,12 @@
     <property name="GO_FMT" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\!SKILL\Golang\!Coding\Go Exercise\Hello World and Static File Server" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -251,21 +262,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="Go Exercise" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/map_exercise/main.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="Go Exercise" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/http_exercise/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="Go Exercise" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Hello World and Static File Server/main.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="TestNewDeck in deck_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
@@ -295,19 +306,19 @@
       <filePath value="$PROJECT_DIR$/cards_exercise/deck_test.go" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Build.go build main.go (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.deck_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.TestNewDeck in deck_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.TestNewDeck in deck_test.go (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build main.go (2)" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.deck_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestNewDeck in deck_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestNewDeck in deck_test.go (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build main.go (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build main.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build main.go (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestNewDeck in deck_test.go (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestNewDeck in deck_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.deck_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build main.go (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build main.go (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestNewDeck in deck_test.go (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestNewDeck in deck_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.deck_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -325,15 +336,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="950" y="0" width="980" height="1090" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2837838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2837838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847533" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5135135" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251121" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33632287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33632287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24774775" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295964" sideWeight="0.4864865" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.4864865" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -396,7 +408,8 @@
     <MESSAGE value="day 7&#10;- go routines&#10;- channels&#10;- fixing channels" />
     <MESSAGE value="day 8&#10;- http&#10;- json&#10;- router&#10;- rest api" />
     <MESSAGE value="day 8&#10;- finishing restapi exercise&#10;- http&#10;- json&#10;- router&#10;- rest api" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 8&#10;- finishing restapi exercise&#10;- http&#10;- json&#10;- router&#10;- rest api" />
+    <MESSAGE value="day 9&#10;- Hello World and Static File Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 9&#10;- Hello World and Static File Server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -405,14 +418,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/http_exercise/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cards_exercise/deck_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -770,11 +775,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Hello World and Static File Server/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Hello World and Static File Server/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="73">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#14#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
