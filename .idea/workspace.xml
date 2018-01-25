@@ -80,7 +80,7 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web Application/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
+            <state relative-caret-position="800">
               <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               <folding>
                 <element signature="e#14#56#0" expanded="true" />
@@ -92,8 +92,8 @@
       <file leaf-file-name="gotut.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hello World and Static File Server/gotut.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            <state relative-caret-position="198">
+              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding>
                 <element signature="e#14#28#0" expanded="true" />
               </folding>
@@ -201,8 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,6 +222,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -399,7 +399,8 @@
     <MESSAGE value="day 9&#10;- Hello World and Static File Server" />
     <MESSAGE value="day 10&#10;- Web Application" />
     <MESSAGE value="day 11 : starting sentdex channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 11 : starting sentdex channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX" />
+    <MESSAGE value="day 11 : starting sentdex channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 11 : starting sentdex channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -668,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,7 +743,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Web Application/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
+        <state relative-caret-position="800">
           <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding>
             <element signature="e#14#56#0" expanded="true" />
@@ -753,8 +753,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hello World and Static File Server/gotut.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="198">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="e#14#28#0" expanded="true" />
           </folding>
