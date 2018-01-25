@@ -2,7 +2,6 @@ package main
 
 import (
 	"io/ioutil"
-	"golang.org/x/tools/godoc"
 	"net/http"
 	"fmt"
 )
