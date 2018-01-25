@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbaf2f67-3b58-4311-afe8-abe45bb39dba" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Hello World and Static File Server/gotut.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edit.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Web Application/main.go" afterPath="$PROJECT_DIR$/Web Application/main.go" />
+      <change beforePath="$PROJECT_DIR$/Hello World and Static File Server/gotut.go" afterPath="$PROJECT_DIR$/Hello World and Static File Server/gotut.go" />
     </list>
     <list id="dfca1c3f-c544-485f-97b3-31e209b46f24" name="day 6" comment="day 6&#10;- reader&#10;- writer&#10;&#10;(cherry picked from commit 1e4d2fb)">
       <changelist_data name="Aditya Alif Nugraha" email="adityaalifnugraha@gmail.com" date="1516024969000">
@@ -94,10 +92,10 @@
       <file leaf-file-name="gotut.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hello World and Static File Server/gotut.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="398">
+              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
               <folding>
-                <element signature="e#14#26#0" expanded="true" />
+                <element signature="e#14#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -333,7 +331,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33632287" sideWeight="0.5112613" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251121" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33632287" sideWeight="0.48873875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33632287" sideWeight="0.48873875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24774775" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.4864865" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -400,7 +398,8 @@
     <MESSAGE value="day 8&#10;- finishing restapi exercise&#10;- http&#10;- json&#10;- router&#10;- rest api" />
     <MESSAGE value="day 9&#10;- Hello World and Static File Server" />
     <MESSAGE value="day 10&#10;- Web Application" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 10&#10;- Web Application" />
+    <MESSAGE value="day 11 : starting sentdex channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 11 : starting sentdex channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -754,10 +753,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hello World and Static File Server/gotut.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="398">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding>
-            <element signature="e#14#26#0" expanded="true" />
+            <element signature="e#14#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
