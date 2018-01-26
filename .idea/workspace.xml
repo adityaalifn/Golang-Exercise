@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbaf2f67-3b58-4311-afe8-abe45bb39dba" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/structs_exercise/gotut.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/structs_exercise/gotut.go" afterPath="$PROJECT_DIR$/structs_exercise/gotut.go" />
     </list>
     <list id="dfca1c3f-c544-485f-97b3-31e209b46f24" name="day 6" comment="day 6&#10;- reader&#10;- writer&#10;&#10;(cherry picked from commit 1e4d2fb)">
       <changelist_data name="Aditya Alif Nugraha" email="adityaalifnugraha@gmail.com" date="1516024969000">
@@ -83,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/Hello World and Static File Server/gotut.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+              <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding>
                 <element signature="e#14#28#0" expanded="true" />
               </folding>
@@ -116,8 +116,8 @@
       <file leaf-file-name="gotut.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/structs_exercise/gotut.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="327">
+              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
@@ -342,7 +342,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33632287" sideWeight="0.5112613" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251121" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33632287" sideWeight="0.48873875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33632287" sideWeight="0.48873875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24774775" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.4864865" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -413,7 +413,8 @@
     <MESSAGE value="day 11 : starting sentdex channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types" />
     <MESSAGE value="day 11 : starting sentdex channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer" />
     <MESSAGE value="day 11 : starting sentdex channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 11 : starting sentdex channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve" />
+    <MESSAGE value="day 12 : starting sentdex channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve&#10;- struct" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 12 : starting sentdex channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve&#10;- struct" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -732,7 +733,7 @@
     <entry file="file://$PROJECT_DIR$/Hello World and Static File Server/gotut.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding>
             <element signature="e#14#28#0" expanded="true" />
           </folding>
@@ -769,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/structs_exercise/gotut.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="327">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>
