@@ -8,7 +8,6 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/kataras/go-sessions"
 )
 
 // Book Struct (Model)

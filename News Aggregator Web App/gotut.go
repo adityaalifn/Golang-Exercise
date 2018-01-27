@@ -5,7 +5,6 @@ import (
 	"io/ioutil"
 	"fmt"
 	"encoding/xml"
-	"golang.org/x/crypto/ssh"
 )
 
 type SitemapIndex struct {
