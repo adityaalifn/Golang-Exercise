@@ -8,6 +8,7 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
+	"github.com/kataras/go-sessions"
 )
 
 // Book Struct (Model)
@@ -29,6 +30,7 @@ var books []Book
 
 // Get All Books
 func getBooks(w http.ResponseWriter, r *http.Request) {
+	//session := sessions.Start()
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(books)
 }
