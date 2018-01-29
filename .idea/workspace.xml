@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbaf2f67-3b58-4311-afe8-abe45bb39dba" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/channels_exercise/gotut.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/goroutines_exercise/gotut.go" afterPath="$PROJECT_DIR$/goroutines_exercise/gotut.go" />
     </list>
     <list id="dfca1c3f-c544-485f-97b3-31e209b46f24" name="day 6" comment="day 6&#10;- reader&#10;- writer&#10;&#10;(cherry picked from commit 1e4d2fb)">
       <changelist_data name="Aditya Alif Nugraha" email="adityaalifnugraha@gmail.com" date="1516024969000">
@@ -48,13 +48,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gotut.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gotut.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goroutines_exercise/gotut.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="175">
+              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
                 <element signature="e#14#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gotut.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/channels_exercise/gotut.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <folding>
+                <element signature="e#14#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,16 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
               <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basictemplating.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basictemplating.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -186,6 +188,7 @@
         <option value="$PROJECT_DIR$/newsaggtemplate.html" />
         <option value="$PROJECT_DIR$/defer_exercise/gotut.go" />
         <option value="$PROJECT_DIR$/goroutines_exercise/gotut.go" />
+        <option value="$PROJECT_DIR$/channels_exercise/gotut.go" />
       </list>
     </option>
   </component>
@@ -224,6 +227,11 @@
             <path>
               <item name="Go Exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="Go Exercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Go Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Go Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="channels_exercise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Go Exercise" type="b2602c69:ProjectViewProjectNode" />
@@ -269,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build gotut.go">
+  <component name="RunManager" selected="Go Build.go build gotut.go (4)">
     <configuration name="go build gotut.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="Go Exercise" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -294,12 +302,12 @@
       <filePath value="$PROJECT_DIR$/News Aggregator Web App/gotut.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build gotut.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build gotut.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="Go Exercise" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/map_exercise/gotut.go" />
+      <filePath value="$PROJECT_DIR$/channels_exercise/gotut.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build gotut.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -313,17 +321,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Build.go build gotut.go (1)" />
       <item index="1" class="java.lang.String" itemvalue="Go Build.go build gotut.go (3)" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build gotut.go (5)" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build gotut.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build gotut.go (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build gotut.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build gotut.go (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build gotut.go (4)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build gotut.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build gotut.go (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build gotut.go (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build gotut.go (3)" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build gotut.go (5)" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build gotut.go (4)" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build gotut.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build gotut.go (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build gotut.go (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build gotut.go (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -343,12 +351,12 @@
     <frame x="950" y="0" width="980" height="1090" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33445945" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34684685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847533" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33632287" sideWeight="0.5112613" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251121" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33632287" sideWeight="0.48873875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33632287" sideWeight="0.48873875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24774775" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.4864865" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -419,7 +427,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/cards_exercise" />
     </ignored-roots>
-    <MESSAGE value="day 5" />
     <MESSAGE value="day 5&#10;- reader&#10;- writer" />
     <MESSAGE value="day 6&#10;- reader&#10;- writer" />
     <MESSAGE value="day 6&#10;- reader&#10;- writer&#10;- channels" />
@@ -444,7 +451,8 @@
     <MESSAGE value="day 13 : starting channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve&#10;- struct&#10;- method (value&amp;pointer receiver)&#10;- xml parsing&#10;- looping&#10;- maps&#10;- HTML template&#10;- finished the web" />
     <MESSAGE value="day 13 : starting channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve&#10;- struct&#10;- method (value&amp;pointer receiver)&#10;- xml parsing&#10;- looping&#10;- maps&#10;- HTML template&#10;- finished the web&#10;- goroutines and sync" />
     <MESSAGE value="day 13 : starting channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve&#10;- struct&#10;- method (value&amp;pointer receiver)&#10;- xml parsing&#10;- looping&#10;- maps&#10;- HTML template&#10;- finished the web&#10;- goroutines and sync&#10;- defer" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 13 : starting channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve&#10;- struct&#10;- method (value&amp;pointer receiver)&#10;- xml parsing&#10;- looping&#10;- maps&#10;- HTML template&#10;- finished the web&#10;- goroutines and sync&#10;- defer" />
+    <MESSAGE value="day 14 : starting channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve&#10;- struct&#10;- method (value&amp;pointer receiver)&#10;- xml parsing&#10;- looping&#10;- maps&#10;- HTML template&#10;- finished the web&#10;- goroutines and sync&#10;- defer&#10;- panic and recover" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 14 : starting channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve&#10;- struct&#10;- method (value&amp;pointer receiver)&#10;- xml parsing&#10;- looping&#10;- maps&#10;- HTML template&#10;- finished the web&#10;- goroutines and sync&#10;- defer&#10;- panic and recover" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -453,11 +461,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/notes/value_and_reference_types.PNG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cards_exercise/deck_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -717,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,10 +807,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goroutines_exercise/gotut.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="175">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="e#14#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/channels_exercise/gotut.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
