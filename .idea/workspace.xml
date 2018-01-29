@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbaf2f67-3b58-4311-afe8-abe45bb39dba" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/channels_exercise/gotut.go" />
+    <list default="true" id="fbaf2f67-3b58-4311-afe8-abe45bb39dba" name="Default" comment="day 14 : starting channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve&#10;- struct&#10;- method (value&amp;pointer receiver)&#10;- xml parsing&#10;- looping&#10;- maps&#10;- HTML template&#10;- finished the web&#10;- goroutines and sync&#10;- defer&#10;- panic and recover&#10;- channel and buffering">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Simple Web App/gotut.go" afterPath="$PROJECT_DIR$/Simple Web App/gotut.go" />
     </list>
     <list id="dfca1c3f-c544-485f-97b3-31e209b46f24" name="day 6" comment="day 6&#10;- reader&#10;- writer&#10;&#10;(cherry picked from commit 1e4d2fb)">
       <changelist_data name="Aditya Alif Nugraha" email="adityaalifnugraha@gmail.com" date="1516024969000">
@@ -36,14 +36,23 @@
       <file leaf-file-name="gotut.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Simple Web App/gotut.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="298">
+              <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
               <folding>
-                <element signature="e#14#89#0" expanded="true" />
-                <element signature="n#!!block;n#newsAggHandler#0" expanded="false" />
+                <element signature="e#14#97#0" expanded="true" />
                 <element signature="n#!!block;n#index_handler#0" expanded="false" />
                 <element signature="n#!!block;n#about_handler#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basictemplating.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basictemplating.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gotut.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gotut.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/channels_exercise/gotut.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="475">
+              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding>
                 <element signature="e#14#39#0" expanded="true" />
               </folding>
@@ -104,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newsaggtemplate.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="newsaggtemplate.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newsaggtemplate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            <state relative-caret-position="225">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -122,16 +131,6 @@
               <folding>
                 <element signature="e#14#28#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/REST-API_exercise/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -157,6 +156,11 @@
         <option value="Go File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>script</find>
+    </findStrings>
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
@@ -184,11 +188,11 @@
         <option value="$PROJECT_DIR$/basictemplating.html" />
         <option value="$PROJECT_DIR$/News Aggregator Web App/gotut.go" />
         <option value="$PROJECT_DIR$/REST-API_exercise/main.go" />
-        <option value="$PROJECT_DIR$/Simple Web App/gotut.go" />
-        <option value="$PROJECT_DIR$/newsaggtemplate.html" />
         <option value="$PROJECT_DIR$/defer_exercise/gotut.go" />
         <option value="$PROJECT_DIR$/goroutines_exercise/gotut.go" />
         <option value="$PROJECT_DIR$/channels_exercise/gotut.go" />
+        <option value="$PROJECT_DIR$/Simple Web App/gotut.go" />
+        <option value="$PROJECT_DIR$/newsaggtemplate.html" />
       </list>
     </option>
   </component>
@@ -198,7 +202,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1090" />
@@ -277,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build gotut.go (4)">
+  <component name="RunManager" selected="Go Build.go build gotut.go (1)">
     <configuration name="go build gotut.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="Go Exercise" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -327,10 +331,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build gotut.go (4)" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build gotut.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build gotut.go (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build gotut.go (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build gotut.go (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build gotut.go (4)" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build gotut.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build gotut.go (2)" />
         <item index="4" class="java.lang.String" itemvalue="Go Build.go build gotut.go (3)" />
       </list>
     </recent_temporary>
@@ -348,15 +352,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="950" y="0" width="980" height="1090" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34684685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16648649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847533" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33632287" sideWeight="0.5112613" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251121" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33632287" sideWeight="0.48873875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3318584" sideWeight="0.48873875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24774775" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.4864865" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -427,7 +431,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/cards_exercise" />
     </ignored-roots>
-    <MESSAGE value="day 5&#10;- reader&#10;- writer" />
     <MESSAGE value="day 6&#10;- reader&#10;- writer" />
     <MESSAGE value="day 6&#10;- reader&#10;- writer&#10;- channels" />
     <MESSAGE value="day 6&#10;- serial&#10;- channels" />
@@ -452,7 +455,8 @@
     <MESSAGE value="day 13 : starting channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve&#10;- struct&#10;- method (value&amp;pointer receiver)&#10;- xml parsing&#10;- looping&#10;- maps&#10;- HTML template&#10;- finished the web&#10;- goroutines and sync" />
     <MESSAGE value="day 13 : starting channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve&#10;- struct&#10;- method (value&amp;pointer receiver)&#10;- xml parsing&#10;- looping&#10;- maps&#10;- HTML template&#10;- finished the web&#10;- goroutines and sync&#10;- defer" />
     <MESSAGE value="day 14 : starting channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve&#10;- struct&#10;- method (value&amp;pointer receiver)&#10;- xml parsing&#10;- looping&#10;- maps&#10;- HTML template&#10;- finished the web&#10;- goroutines and sync&#10;- defer&#10;- panic and recover" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 14 : starting channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve&#10;- struct&#10;- method (value&amp;pointer receiver)&#10;- xml parsing&#10;- looping&#10;- maps&#10;- HTML template&#10;- finished the web&#10;- goroutines and sync&#10;- defer&#10;- panic and recover" />
+    <MESSAGE value="day 14 : starting channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve&#10;- struct&#10;- method (value&amp;pointer receiver)&#10;- xml parsing&#10;- looping&#10;- maps&#10;- HTML template&#10;- finished the web&#10;- goroutines and sync&#10;- defer&#10;- panic and recover&#10;- channel and buffering" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 14 : starting channel tutorial&#10;https://www.youtube.com/watch?v=G3PvTWRIhZA&amp;list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX&#10;- intro&#10;- syntax&#10;- types&#10;- pointer&#10;- HandleFunc and Serve&#10;- struct&#10;- method (value&amp;pointer receiver)&#10;- xml parsing&#10;- looping&#10;- maps&#10;- HTML template&#10;- finished the web&#10;- goroutines and sync&#10;- defer&#10;- panic and recover&#10;- channel and buffering" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -723,13 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basictemplating.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/REST-API_exercise/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -754,27 +751,6 @@
           <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding>
             <element signature="e#14#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newsaggtemplate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Simple Web App/gotut.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#89#0" expanded="true" />
-            <element signature="n#!!block;n#newsAggHandler#0" expanded="false" />
-            <element signature="n#!!block;n#index_handler#0" expanded="false" />
-            <element signature="n#!!block;n#about_handler#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -817,11 +793,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/channels_exercise/gotut.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="475">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
             <element signature="e#14#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basictemplating.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simple Web App/gotut.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+          <folding>
+            <element signature="e#14#97#0" expanded="true" />
+            <element signature="n#!!block;n#index_handler#0" expanded="false" />
+            <element signature="n#!!block;n#about_handler#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsaggtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
